@@ -16,10 +16,10 @@ load_dotenv()
 DISCORD_TOKEN = os.getenv("DISCORD_TOKEN")
 CHANNEL_ID    = int(os.getenv("CHANNEL_ID", "0"))
 
-SUBREDDITS = ["nextfuckinglevel", "PublicFreakout", "funny"]
+SUBREDDITS = ["long_porn", "PublicFreakout", "funny"]
 
-INTERVAL_MINUTES = 30
-POSTS_PER_RUN = 1
+INTERVAL_MINUTES = 1
+POSTS_PER_RUN = 2
 SEEN_FILE = "seen_posts.json"
 
 VIDEO_DOMAINS = [
