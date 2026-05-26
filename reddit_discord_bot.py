@@ -38,7 +38,7 @@ def is_video(post):
 
 def fetch_posts(seen):
     results = []
-    headers = {"User-Agent": "RedditDiscordBot/1.0"}
+    headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"}
     for sub in SUBREDDITS:
         try:
             res = requests.get(f"https://www.reddit.com/r/{sub}/new.json?limit=25", headers=headers, timeout=10)
