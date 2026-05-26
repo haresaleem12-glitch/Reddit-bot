@@ -14,7 +14,7 @@ DISCORD_TOKEN = os.getenv("DISCORD_TOKEN")
 CHANNEL_ID    = int(os.getenv("CHANNEL_ID", "0"))
 
 SUBREDDITS = ["long_porn", "Porn", "boobs"]
-INTERVAL_MINUTES = 20
+INTERVAL_MINUTES = 1
 POSTS_PER_RUN = 2
 SEEN_FILE = "seen_posts.json"
 MAX_FILE_SIZE_MB = 24
