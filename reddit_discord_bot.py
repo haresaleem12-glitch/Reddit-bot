@@ -13,7 +13,7 @@ load_dotenv()
 DISCORD_TOKEN = os.getenv("DISCORD_TOKEN")
 CHANNEL_ID    = int(os.getenv("CHANNEL_ID", "0"))
 
-SUBREDDITS = ["long_porn", "porn", "boobs"]
+SUBREDDITS = ["oddly interesting", "the boys", "next fucking level"]
 INTERVAL_MINUTES = 1
 POSTS_PER_RUN = 10
 SEEN_FILE = "seen_posts.json"
